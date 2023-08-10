@@ -1,0 +1,10 @@
+Bundle-Name: Reg-service-api
+Bundle-SymbolicName: Reg.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	Reg.service.exception,\
+	Reg.service.model,\
+	Reg.service.service,\
+	Reg.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Reg-service-service/service.xml
