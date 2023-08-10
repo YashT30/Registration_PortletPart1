@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="Reg.service.model.Billing1">
+		<field name="uuid" type="String" />
+		<field name="billingAddressId" type="long" />
+		<field name="userId" type="long" />
+		<field name="address" type="String" />
+		<field name="address2" type="String" />
+		<field name="city" type="String" />
+		<field name="state" type="String" />
+		<field name="zip" type="String" />
+	</model>
+	<model name="Reg.service.model.Contacts1">
+		<field name="uuid" type="String" />
+		<field name="phoneId" type="long" />
+		<field name="userId" type="long" />
+		<field name="homePhone" type="String" />
+		<field name="mobilePhone" type="String" />
+	</model>
+	<model name="Reg.service.model.Student1">
+		<field name="uuid" type="String" />
+		<field name="userId" type="long" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="emailAddress" type="String" />
+		<field name="username" type="String" />
+		<field name="male" type="boolean" />
+		<field name="birthdayMonth" type="int" />
+		<field name="birthdayDay" type="int" />
+		<field name="birthdayYear" type="int" />
+		<field name="password1" type="String" />
+		<field name="password2" type="String" />
+		<field name="securityQuestion" type="String" />
+		<field name="securityAnswer" type="String" />
+		<field name="acceptedTermsOfUse" type="boolean" />
+	</model>
+</model-hints>
